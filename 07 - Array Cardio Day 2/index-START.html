@@ -62,15 +62,13 @@
 
     // To delete you can use one of the following methods:
 
-    // comments.splice(index, 1);
+    comments.splice(index, 1);
 
-    const newComments = [
-      ...comments.slice(0, index),
-      ...comments.slice(index + 1)
-    ];
-
-    console.table(comments);
-    console.table(newComments);
+    // This one is very popular inside of the redux world:
+    // const newComments = [
+    //   ...comments.slice(0, index),
+    //   ...comments.slice(index + 1)
+    // ];
 
   </script>
 </body>
